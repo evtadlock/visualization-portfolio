@@ -11,13 +11,13 @@ Statistical visualizations of 11x11 Hex games examining first move strategy, cha
 ## Example Visualizations
 
 ### First Move Distribution (Chi-square Test)
-![Chi-square](images/chisq.png)
+![Chi-square](chisq.png)
 
 ### Near-Unbroken Chains by Move Type (Proportion Test)
-![Proportion](images/catmovetype_nearunbroken.png)
+![Proportion](catmovetype_nearunbroken.png)
 
 ### Win Distribution by Move Type (ANOVA)
-![ANOVA](images/anova_1st.png)
+![ANOVA](anova_1st.png)
 
 ### Game Length by First Move (Density)
-![Density](images/density.png)
+![Density](density.png)
