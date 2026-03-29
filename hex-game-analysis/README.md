@@ -10,7 +10,7 @@ Statistical visualizations of 11x11 Hex games examining first move strategy, cha
 
 ## Example Visualizations
 
-![Chi-square](hex-game-analysis/chisq.png)
+![Chi-square](chisq.png)
 ![Proportion](hex-game-analysis/catmovetype_nearunbroken.png)
 ![ANOVA](hex-game-analysis/anova_1st.png)
 ![Density](hex-game-analysis/density.png)
