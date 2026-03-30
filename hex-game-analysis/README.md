@@ -1,6 +1,6 @@
 # Hex Game Analysis Visualizations
 
-Statistical visualizations of 11x11 Hex games examining first move strategy, chain formation, and game outcomes.
+Statistical visualizations of 11x11 Hex games examining first move strategy, chain formation, and game outcomes. Done in R. 
 
 ## Key Findings
 - First moves are not uniformly random (chi-square test)
