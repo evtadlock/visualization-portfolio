@@ -38,7 +38,7 @@ The most frequent opening moves highlight strategic positioning patterns.
 
 ### Win Counts by First Move
 
-![Win Counts](./first_move_win_counts2.png)
+![Win Counts](./first_move_win_counts.png)
 
 This visualization compares how often specific first moves lead to wins.
 
