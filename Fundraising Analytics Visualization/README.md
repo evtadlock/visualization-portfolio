@@ -23,9 +23,9 @@ This repository presents visualizations from a causal inference and predictive m
 
 ### Missing Data and Placeholder Detection
 
-![Missing Data](images/missing_data_placeholder_issue.png)
+![Missing Data](./images/missing_data_placeholder_issue.png)
 
-This visualization highlights a data quality issue caused by placeholder values, resulting in an artificial spike in the distribution. After removing placeholder values, the data reflects a more realistic population, demonstrating the importance of preprocessing in real-world datasets.
+This visualization highlights a data quality issue caused by placeholder values, resulting in an artificial spike in the distribution. After removing placeholder values, the data reflects a more realistic population.
 
 ---
 
@@ -33,9 +33,9 @@ This visualization highlights a data quality issue caused by placeholder values,
 
 ### Outcome Distribution (CDF)
 
-![CDF](images/cdf_distribution.png)
+![CDF](./images/cdf_distribution.png)
 
-This cumulative distribution function (CDF) highlights the heavy-tailed nature of the data, where most observations fall within a lower range while a small number contribute disproportionately to total outcomes.
+This cumulative distribution function (CDF) highlights the heavy-tailed nature of the data, where a small number of observations contribute disproportionately to total outcomes.
 
 ---
 
@@ -43,9 +43,9 @@ This cumulative distribution function (CDF) highlights the heavy-tailed nature o
 
 ### ROC Curve
 
-![ROC](images/roc_model_performance.png)
+![ROC](./images/roc_model_performance.png)
 
-This ROC curve compares model performance for predicting key outcomes. The models demonstrate moderate discriminative ability, as reflected by the area under the curve (AUC).
+This ROC curve compares model performance for predicting key outcomes. The models demonstrate moderate discriminative ability based on AUC values.
 
 ---
 
@@ -53,13 +53,13 @@ This ROC curve compares model performance for predicting key outcomes. The model
 
 ### Propensity Score Overlap
 
-![Propensity](images/propensity_overlap.png)
+![Propensity](./images/propensity_overlap.png)
 
-This plot shows the overlap between treated and control groups after propensity score estimation, supporting valid causal comparison.
+This plot shows overlap between treated and control groups after propensity score estimation, supporting valid causal comparisons.
 
 ### Treatment Effect (Matched Distribution)
 
-![Matched CDF](images/cdf_treatment_effect.png)
+![Matched CDF](./images/cdf_treatment_effect.png)
 
 This visualization compares outcome distributions between matched groups, illustrating the estimated treatment effect through a shift in distributions.
 
@@ -69,21 +69,21 @@ This visualization compares outcome distributions between matched groups, illust
 
 ### Monte Carlo Simulation
 
-![Monte Carlo](images/monte_carlo_simulation.png)
+![Monte Carlo](./images/monte_carlo_simulation.png)
 
-This simulation models uncertainty across multiple scenarios, showing variability in projected outcomes over repeated trials.
+This simulation models uncertainty across multiple scenarios, showing variability in projected outcomes.
 
 ### Scenario-Based Forecasting
 
-![Forecast](images/scenario_forecast.png)
+![Forecast](./images/scenario_forecast.png)
 
-This plot shows projected cumulative outcomes over time under different scenarios, supporting planning and decision-making.
+This plot shows projected cumulative outcomes over time under different scenarios.
 
 ### Confidence Interval Summary
 
-![CI](images/confidence_intervals.png)
+![CI](./images/confidence_intervals.png)
 
-This chart summarizes projected outcomes with associated confidence intervals, providing a clear comparison of expected ranges across scenarios.
+This chart summarizes projected outcomes with confidence intervals, allowing comparison across scenarios.
 
 ---
 
