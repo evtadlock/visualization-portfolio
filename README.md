@@ -1,57 +1,70 @@
 # Data Visualization Portfolio
 
-Collection of statistical visualizations focused on hypothesis testing, pattern analysis, and interpretation using real-world data.
+This repository showcases statistical and analytical visualizations across multiple projects, with a focus on:
 
-Each project in this repository is self-contained and includes its own README with full methods, results, and explanations.
+- Causal inference and treatment effect analysis  
+- Predictive modeling and evaluation  
+- Simulation and uncertainty quantification  
+- Exploratory and statistical data analysis  
+
+The goal is to communicate complex results clearly for decision-making.
 
 ---
 
 ## Projects
 
-### Hex Game Strategy Analysis
+### Fundraising Analytics Visualization
+Causal inference and predictive modeling project analyzing participant behavior and donation outcomes.
 
-Statistical analysis of first-move strategy and game dynamics in 11x11 Hex using thousands of recorded games.
+Key components:
+- Distribution analysis (CDFs and heavy-tailed behavior)
+- Treatment effect estimation (propensity score matching)
+- Model evaluation (ROC curves)
+- Monte Carlo simulation and scenario forecasting
+- Confidence interval interpretation
 
-This project applies statistical testing to evaluate how early decisions influence outcomes and structural patterns in gameplay.
-
-#### Methods
-- Chi-square test on opening move distribution  
-- ANOVA on game length differences  
-- Proportion tests on unbroken and near-unbroken chains  
-- Move classification (Center, Edge, Corner)  
-
-#### Key Findings
-- First moves are not randomly distributed  
-- Center positions are used more frequently than edge or corner openings  
-- Certain opening moves are associated with higher rates of near-unbroken chains  
-- Move type affects both win probability and game length  
-
-[View Project](./hex-game-analysis)
-
-#### Visualizations
-
-![Chi-square](hex-game-analysis/images/chisq.png)  
-Result: First move selection is significantly non-uniform, indicating strategic preference.
-
-![ANOVA](hex-game-analysis/images/anova_1st.png)  
-Result: Game length varies based on opening move type.
-
-![Proportion](hex-game-analysis/images/catmovetype_nearunbroken.png)  
-Result: Move categories show different probabilities of forming near-unbroken chains.
-
-![Density](hex-game-analysis/images/density.png)  
-Result: Distribution of game lengths highlights variation across strategies.
+📂 [View Project](./Fundraising%20Analytics%20Visualization)
 
 ---
 
-## Tools
+### Hex Game Analysis
+Statistical analysis of 11x11 Hex games exploring how first-move strategy impacts outcomes and game structure.
 
-- R: ggplot2, statistical testing  
-- Statistical methods:
-  - Chi-square tests  
-  - ANOVA  
-  - Proportion tests  
+Key components:
+- First move distribution analysis (chi-square test)
+- Win outcome comparisons (ANOVA, proportions)
+- Chain formation analysis (unbroken and near-unbroken paths)
+- Game length distributions
+- Strategic pattern identification
+
+📂 [View Project](./hex-game-analysis)
 
 ---
 
-## Repository Structure
+### Research Posters
+Collection of academic and conference-style visualizations.
+
+📂 [View Posters](./posters)
+
+---
+
+## Skills Demonstrated
+
+- Statistical modeling and inference  
+- Data visualization and storytelling  
+- Causal inference methods  
+- Simulation and uncertainty analysis  
+- Exploratory data analysis  
+
+---
+
+## Tools Used
+
+- R (ggplot2, dplyr, statistical testing)  
+- Python (matplotlib, seaborn, scikit-learn)  
+
+---
+
+## Summary
+
+This portfolio demonstrates the ability to transform raw data into structured, interpretable insights using statistical methods and visualization techniques.
