@@ -1,41 +1,91 @@
 # Fundraising Analytics Visualization Portfolio
 
-This repository presents visualizations from a causal inference and predictive modeling project using real-world data. The focus is on communicating treatment effects, uncertainty, and outcome variability through clear, decision-oriented visuals.
+Data visualization portfolio demonstrating causal inference, predictive modeling, and uncertainty analysis using real-world data.
+
+This repository presents visualizations from a causal inference and predictive modeling project. The focus is on communicating treatment effects, uncertainty, and outcome variability through clear, decision-oriented visuals.
+
+---
 
 ## Key Strengths Demonstrated
 
 - Communicating statistical results visually (confidence intervals, distributions, effects)
 - Translating complex models into interpretable insights
 - Visualizing uncertainty and scenario-based outcomes
-- Working with real-world data challenges (missingness, imbalance)
+- Working with real-world data challenges (missingness, data quality issues)
+
+---
 
 ## Visualization Categories
 
-## 1. Data Quality and Preprocessing
-- Missing data patterns
-- Imputation impact
+---
 
-## 2. Exploratory Analysis
-- Geographic and socioeconomic patterns
-- Correlation structures
+## 1. Data Quality and Preprocessing
+
+### Missing Data and Placeholder Detection
+
+![Missing Data](images/missing_data_placeholder_issue.png)
+
+This visualization highlights a data quality issue caused by placeholder values, resulting in an artificial spike in the distribution. After removing placeholder values, the data reflects a more realistic population, demonstrating the importance of preprocessing in real-world datasets.
+
+---
+
+## 2. Distribution Analysis
+
+### Outcome Distribution (CDF)
+
+![CDF](images/cdf_distribution.png)
+
+This cumulative distribution function (CDF) highlights the heavy-tailed nature of the data, where most observations fall within a lower range while a small number contribute disproportionately to total outcomes.
+
+---
 
 ## 3. Model Evaluation
-- ROC curves
-- Classification performance
 
-## 4. Distribution Analysis
-- Heavy-tailed behavior (CDFs)
+### ROC Curve
 
-## 5. Causal Inference
-- Propensity score overlap
-- Matched outcome comparisons
+![ROC](images/roc_model_performance.png)
 
-## 6. Simulation and Forecasting
-- Monte Carlo uncertainty distributions
-- Scenario-based projections
+This ROC curve compares model performance for predicting key outcomes. The models demonstrate moderate discriminative ability, as reflected by the area under the curve (AUC).
 
-## 7. Behavioral Insights
-- Participant behavior patterns
+---
+
+## 4. Causal Inference
+
+### Propensity Score Overlap
+
+![Propensity](images/propensity_overlap.png)
+
+This plot shows the overlap between treated and control groups after propensity score estimation, supporting valid causal comparison.
+
+### Treatment Effect (Matched Distribution)
+
+![Matched CDF](images/cdf_treatment_effect.png)
+
+This visualization compares outcome distributions between matched groups, illustrating the estimated treatment effect through a shift in distributions.
+
+---
+
+## 5. Simulation and Forecasting
+
+### Monte Carlo Simulation
+
+![Monte Carlo](images/monte_carlo_simulation.png)
+
+This simulation models uncertainty across multiple scenarios, showing variability in projected outcomes over repeated trials.
+
+### Scenario-Based Forecasting
+
+![Forecast](images/scenario_forecast.png)
+
+This plot shows projected cumulative outcomes over time under different scenarios, supporting planning and decision-making.
+
+### Confidence Interval Summary
+
+![CI](images/confidence_intervals.png)
+
+This chart summarizes projected outcomes with associated confidence intervals, providing a clear comparison of expected ranges across scenarios.
+
+---
 
 ## Summary
 
