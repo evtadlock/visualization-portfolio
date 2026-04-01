@@ -1,6 +1,6 @@
-# Visualization Poster Presentations
+# Visualization Portfolio
 
-Statistical and analytical visualizations from academic and applied projects using R and statistical modeling techniques.
+Statistical and analytical visualizations from academic and applied projects using R, Python, and statistical modeling techniques.
 
 ---
 
@@ -10,6 +10,8 @@ Statistical and analytical visualizations from academic and applied projects usi
 - Analyzed over 2,000 Hex games to study first-move strategy, win rates, and game length  
 - Applied chi-square tests, ANOVA, t-tests, and proportion tests  
 - Examined strategic patterns using Browne’s path framework  
+- Tools: R (dplyr, ggplot2, tidyr)  
+- Presented at: TWU Student Research Symposium, Spring 2025  
 - Focus: game theory, statistical inference, and pattern detection  
 
 [View Poster](posters/hex_first_move_analysis.pdf)
@@ -20,6 +22,8 @@ Statistical and analytical visualizations from academic and applied projects usi
 - Developed a randomness test using the Rubin Causal Model and propensity scores  
 - Compared matched sequences to detect hidden dependencies  
 - Evaluated multiple random number generators, including NIST sequences  
+- Implemented in Python  
+- Presented at: TWU Celebration of Science, 2025  
 - Focus: causal inference, hypothesis testing, and statistical validation  
 
 [View Poster](posters/propensity_randomness_test.pdf)
@@ -28,10 +32,11 @@ Statistical and analytical visualizations from academic and applied projects usi
 
 ## Methods and Tools
 
-- R (dplyr, ggplot2, tidyr)
-- Statistical testing: chi-square, ANOVA, t-tests, proportion tests
-- Causal inference: propensity scores, Rubin Causal Model
-- Data processing and visualization design
+- R: dplyr, ggplot2, tidyr  
+- Python: NumPy, statistical modeling workflows  
+- Statistical testing: chi-square, ANOVA, t-tests, proportion tests  
+- Causal inference: propensity scores, Rubin Causal Model  
+- Data processing and visualization design  
 
 ---
 
